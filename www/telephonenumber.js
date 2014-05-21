@@ -9,7 +9,7 @@
     TelephoneNumber.NO_TELEPHONE_NUMBER = 0;
 
     TelephoneNumber.prototype.get = function(success,fail) {
-        exec(success,fail,"TelephoneNumber",
+        cordova.exec(success,fail,"TelephoneNumber",
             "get",[]);
     };
 
