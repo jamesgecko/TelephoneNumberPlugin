@@ -4,18 +4,9 @@ The telephone number plugin allows you to retreive the devices phone numberfrom 
 
 ## Adding the Plugin to your project ##
 
-Using this plugin requires [Android PhoneGap](https://github.com/apache/incubator-cordova-android).
+Using this plugin requires [Apache Cordova 3.0+](https://cordova.apache.org).
 
-1. To install the plugin, copy the www/telephonenumber.js file to your project's www folder and include a reference to it in your html file after cordova.js.
-
-    &lt;script type="text/javascript" charset="utf-8" src="cordova.js"&gt;&lt;/script&gt;<br/>
-    &lt;script type="text/javascript" charset="utf-8" src="telephonenumber.js"&gt;&lt;/script&gt;
-    
-2. Create a directory within your project called "src/com/simonmacdonald/cordova/plugins" and copy src/com/simonmacdonald/cordova/plugins/TelephoneNumber.java into it.
-
-3. In your res/xml/config.xml file add the following line:
-
-    &lt;plugin name="TelephoneNumber" value="com.simonmacdonald.cordova.plugins.TelephoneNumber"/&gt;
+1. To install the plugin, run `cordova plugin add https://github.com/surrealtechltd/TelephoneNumberPlugin.git`.
 
 ## Using the plugin ##
 
