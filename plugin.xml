@@ -13,7 +13,10 @@
     <author>Simon MacDonald, updated to Cordova 3 by Russell Stather</author>
     <keywords>android, phone number</keywords>
     <license>MIT</license>
-    <asset src="www/telephonenumber.js" target="telephonenumber.js" />
+
+    <js-module src="www/telephonenumber.js" name="TelephoneNumberPlugin">
+        <clobbers target="TelephoneNumberPlugin" />
+    </js-module>
     
     <platform name="android">
         <source-file src="src/com/simonmacdonald/cordova/plugins/TelephoneNumber.java" target-dir="src/com/simonmacdonald/cordova/plugins" />

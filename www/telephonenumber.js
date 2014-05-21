@@ -1,6 +1,4 @@
-cordova.define("cordova/plugin/telephonenumber",
-  function(require, exports, module) {
-    var exec = require("cordova/exec");
+(function() {
     var TelephoneNumber = function () {};
 
     var TelephoneNumberError = function(code, message) {
@@ -16,12 +14,7 @@ cordova.define("cordova/plugin/telephonenumber",
     };
 
     var telephoneNumber = new TelephoneNumber();
-    module.exports = telephoneNumber;
-});
 
-if(!window.plugins) {
-    window.plugins = {};
-}
-if (!window.plugins.telephoneNumber) {
-    window.plugins.telephoneNumber = cordova.require("cordova/plugin/telephonenumber");
-}
+    module.exports = telephoneNumber;
+})();
+
