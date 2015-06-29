@@ -5,7 +5,7 @@
         id="com.simonmacdonald.telephonenumber"
         version="2.0.0">
     <engines>
-        <engine name="cordova-android" version=">=5.0.0"/>
+        <engine name="cordova-android" version=">=4.0.0"/>
     </engines>
     
     <name>TelephoneNumber</name>
