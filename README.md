@@ -21,8 +21,7 @@ You create a new object that represents the plugin using cordova.require. Then y
 
 Sample use:
 
-    var telephoneNumber = cordova.require("cordova/plugin/telephonenumber");
-    telephoneNumber.get(function(result) {
+    TelephoneNumberPlugin.get(function(result) {
             console.log("result = " + result);
         }, function() {
             console.log("error");
